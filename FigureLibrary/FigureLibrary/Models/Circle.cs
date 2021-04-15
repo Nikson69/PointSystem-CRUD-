@@ -12,6 +12,6 @@ namespace FigureLibrary.Models
         }
         
         public override double Area() =>
-            PI * Exponentiation(radius, degree);
+            Math.PI * Math.Pow(radius, degree);
     }
 }

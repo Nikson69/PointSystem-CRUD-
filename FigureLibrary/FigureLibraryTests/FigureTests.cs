@@ -1,29 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FigureLibrary;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FigureLibrary.Tests
 {
     [TestClass()]
     public class FigureTests: Figure
     {
-        [TestMethod()]
-        public void ExponentiationTest()
-        {
-            // setup
-            var sourse = 20;
-            var degree = 2;
-            var expectedResult = 400;
-
-            // act
-            var result = Exponentiation(sourse, degree);
-
-            // assert
-            Assert.AreEqual(expectedResult, result);
-        }
-
         [TestMethod()]
         public void SinTest()
         {

@@ -1,10 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FigureServices;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using FigureLibrary.Models;
-using FigureLibrary;
 
 namespace FigureServices.Tests
 {
@@ -34,7 +29,7 @@ namespace FigureServices.Tests
             var radius = 20;
             var figure = new Circle(radius);
             var areaСalculations = new AreaСalculations(figure);
-            var expectedArea = 1256;
+            var expectedArea = 1256.6370614359173;
 
             // act
             var area = areaСalculations.GetArea();

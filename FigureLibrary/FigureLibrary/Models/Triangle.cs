@@ -57,6 +57,6 @@ namespace FigureLibrary.Models
         }
             
         private double AreaOfEquilateralTriangle() => 
-            (Exponentiation(firstSides, degree) * Math.Sqrt(3)) / 4;
+            (Math.Pow(firstSides, degree) * Math.Sqrt(3)) / 4;
     }
 }
